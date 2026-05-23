@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 90" width="380" height="90" role="img" aria-label="Dream Residence Lux">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- Diamond / Gem Icon -->
+  <polygon fill="#C9A84C" points="37,14 60,45 37,76 14,45"/>
+
+  <!-- Vertical Divider -->
+  <line x1="74" y1="12" x2="74" y2="78" stroke="#C9A84C" stroke-width="1" opacity="0.6"/>
+
+  <!-- Brand Name: white for dark backgrounds -->
+  <text
+    x="84" y="44"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-size="24"
+    font-weight="400"
+    fill="#FFFFFF"
+    letter-spacing="1"
+  >Dream Residence Lux</text>
+
+  <!-- Tagline: gold -->
+  <text
+    x="84" y="61"
+    font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+    font-size="10.5"
+    font-weight="300"
+    fill="#C9A84C"
+    letter-spacing="4"
+  >PREMIUM RESIDENCE</text>
+</svg>
