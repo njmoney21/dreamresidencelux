@@ -45,11 +45,19 @@
        HERO
   ══════════════════════════════════════════════ -->
   <section class="hero" id="home">
-    <div class="hero-bg" style="background-image: url('assets/images/hero.webp')"></div>
-    <div class="hero-overlay"></div>
+    <div class="hero-grain"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-corner hero-corner--tl"></div>
+    <div class="hero-corner hero-corner--tr"></div>
+    <div class="hero-corner hero-corner--bl"></div>
+    <div class="hero-corner hero-corner--br"></div>
 
     <div class="hero-content">
-      <span class="hero-eyebrow">Zlatibor, Srbija</span>
+      <span class="hero-eyebrow">
+        <span class="hero-eyebrow-line"></span>
+        Zlatibor, Srbija
+        <span class="hero-eyebrow-line"></span>
+      </span>
       <h1 class="hero-title">
         Vaša oaza mira<br>
         <em>i luksuza</em>
@@ -59,9 +67,16 @@
         Privatni apartman od 41m² na 6. spratu Zlatibor Mountain Resort &amp; Spa,<br>
         sa pogledom na jezero i beskrajne borove šume.
       </p>
-      <a href="#book" class="btn btn-gold">Rezervišite Boravak</a>
+      <div class="hero-actions">
+        <a href="#book" class="btn btn-gold">Rezervišite Boravak</a>
+        <a href="#gallery" class="btn btn-outline-gold">Pogledajte Galeriju</a>
+      </div>
     </div>
 
+    <div class="hero-scroll-indicator">
+      <span class="hero-scroll-label">Skrolujte</span>
+      <div class="hero-scroll-bar"></div>
+    </div>
   </section>
 
 
