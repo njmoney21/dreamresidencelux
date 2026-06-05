@@ -4,9 +4,9 @@
 :root {
   --gold:        #C9A84C;
   --gold-light:  #dfc074;
-  --navy:        #000000;
-  --navy-light:  #111111;
-  --cream:       #0A0A0A;
+  --navy:        #1A1A1A;
+  --navy-light:  #222222;
+  --cream:       #161616;
   --white:       #ffffff;
   --text:        #C9A84C;
   --text-muted:  #888;
@@ -23,7 +23,7 @@
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: var(--font-sans); color: var(--text); background: #000000; overflow-x: hidden; }
+body { font-family: var(--font-sans); color: var(--text); background: #1A1A1A; overflow-x: hidden; }
 img  { display: block; max-width: 100%; }
 a    { text-decoration: none; color: inherit; }
 
@@ -197,7 +197,7 @@ a    { text-decoration: none; color: inherit; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #000;
+  background: #1A1A1A;
 }
 
 .hero-bg { display: none; }
@@ -532,7 +532,7 @@ a    { text-decoration: none; color: inherit; }
    ============================================================ */
 .gallery-section {
   padding: 8rem 0 8rem;
-  background: #000;
+  background: #1A1A1A;
 }
 .gallery-header {
   text-align: center;
@@ -755,7 +755,7 @@ a    { text-decoration: none; color: inherit; }
   display: flex;
   align-items: center;
   gap: 5rem;
-  background: #111;
+  background: #222;
   padding: 3rem 3.5rem;
   max-width: 840px;
   margin: 0 auto 3.5rem;
@@ -827,7 +827,7 @@ a    { text-decoration: none; color: inherit; }
   margin: 0 auto;
 }
 .review-card {
-  background: #111;
+  background: #222;
   padding: 2.2rem;
   border-left: 3px solid var(--gold);
   box-shadow: 0 2px 30px rgba(0,0,0,0.4);
@@ -927,7 +927,7 @@ a    { text-decoration: none; color: inherit; }
   background: rgba(201,168,76,0.1);
 }
 .rule-card {
-  background: #111;
+  background: #222;
   padding: 2rem 1.8rem;
   display: flex;
   gap: 1rem;
