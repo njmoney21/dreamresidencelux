@@ -2,11 +2,11 @@
    DESIGN TOKENS
    ============================================================ */
 :root {
-  --gold:        #C9921A;
-  --gold-light:  #E8B84B;
-  --navy:        #0C0C0C;
-  --navy-light:  #141414;
-  --cream:       #101010;
+  --gold:        #D4AF37;
+  --gold-light:  #F0D875;
+  --navy:        #000000;
+  --navy-light:  #0D0D0D;
+  --cream:       #080808;
   --white:       #ffffff;
   --text:        #C9A84C;
   --text-muted:  #888;
@@ -23,7 +23,7 @@
    ============================================================ */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
-body { font-family: var(--font-sans); color: var(--text); background: #0C0C0C; overflow-x: hidden; }
+body { font-family: var(--font-sans); color: var(--text); background: #000000; overflow-x: hidden; }
 img  { display: block; max-width: 100%; }
 a    { text-decoration: none; color: inherit; }
 
@@ -197,7 +197,7 @@ a    { text-decoration: none; color: inherit; }
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: #0C0C0C;
+  background: #000000;
 }
 
 .hero-bg { display: none; }
@@ -287,7 +287,7 @@ a    { text-decoration: none; color: inherit; }
 .hero-title em {
   font-style: italic;
   display: block;
-  background: linear-gradient(135deg, #E8B84B 0%, #C9921A 40%, #E8C96A 70%, #B8811A 100%);
+  background: linear-gradient(135deg, #F0D875 0%, #D4AF37 35%, #EDD57A 65%, #A89020 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -535,7 +535,7 @@ a    { text-decoration: none; color: inherit; }
    ============================================================ */
 .gallery-section {
   padding: 8rem 0 8rem;
-  background: #0C0C0C;
+  background: #000000;
 }
 .gallery-header {
   text-align: center;
