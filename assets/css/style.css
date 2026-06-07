@@ -122,7 +122,14 @@ a    { text-decoration: none; color: inherit; }
   justify-content: space-between;
 }
 
-.nav-logo img { height: 48px; width: auto; display: block; }
+.nav-logo img {
+  height: 72px;
+  width: auto;
+  display: block;
+  filter: drop-shadow(0 0 14px rgba(212, 175, 55, 0.35));
+  transition: height 0.35s var(--ease);
+}
+.nav.scrolled .nav-logo img { height: 58px; }
 
 .nav-links {
   display: flex;
@@ -918,7 +925,7 @@ a    { text-decoration: none; color: inherit; }
    ============================================================ */
 .rules {
   padding: 8rem 2rem;
-  background: var(--white);
+  background: var(--navy);
 }
 .rules-inner { max-width: var(--max); margin: 0 auto; }
 .rules-header { text-align: center; margin-bottom: 4.5rem; }
@@ -982,24 +989,24 @@ a    { text-decoration: none; color: inherit; }
 }
 .book-overlay {
   position: absolute; inset: 0;
-  background: rgba(27,42,74,0.84);
+  background: rgba(0,0,0,0.93);
 }
 .book-content {
   position: relative;
   z-index: 1;
-  color: var(--white);
+  color: var(--gold);
 }
 .book-title {
   font-family: var(--font-serif);
   font-size: clamp(2.4rem, 5vw, 4.6rem);
   font-weight: 300;
   line-height: 1.12;
-  color: var(--white);
+  color: var(--gold);
   margin: 1rem 0 1.4rem;
 }
 .book-sub {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(212,175,55,0.6);
   letter-spacing: 0.12em;
   text-transform: uppercase;
   margin-bottom: 3rem;
@@ -1066,7 +1073,13 @@ a    { text-decoration: none; color: inherit; }
   text-align: center;
   gap: 0.9rem;
 }
-.footer-logo { height: 38px; width: auto; display: block; margin-bottom: 0.4rem; }
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 0.4rem;
+  filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.3));
+}
 .footer-address {
   font-size: 0.72rem;
   color: rgba(255,255,255,0.38);
