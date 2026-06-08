@@ -243,27 +243,6 @@ a    { text-decoration: none; color: inherit; }
   pointer-events: none;
 }
 
-/* Corner brackets */
-.hero-corner {
-  position: absolute;
-  z-index: 2;
-  width: 52px;
-  height: 52px;
-  pointer-events: none;
-  opacity: 0.6;
-}
-.hero-corner--tl { top: 2.8rem; left: 2.8rem; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
-.hero-corner--tr { top: 2.8rem; right: 2.8rem; border-top: 1px solid var(--gold); border-right: 1px solid var(--gold); }
-.hero-corner--bl { bottom: 2.8rem; left: 2.8rem; border-bottom: 1px solid var(--gold); border-left: 1px solid var(--gold); }
-.hero-corner--br { bottom: 2.8rem; right: 2.8rem; border-bottom: 1px solid var(--gold); border-right: 1px solid var(--gold); }
-
-@media (max-width: 600px) {
-  .hero-corner { width: 32px; height: 32px; top: 1.5rem; }
-  .hero-corner--tl { top: 1.5rem; left: 1.5rem; }
-  .hero-corner--tr { top: 1.5rem; right: 1.5rem; }
-  .hero-corner--bl { bottom: 1.5rem; left: 1.5rem; }
-  .hero-corner--br { bottom: 1.5rem; right: 1.5rem; }
-}
 
 .hero-content {
   position: relative;
