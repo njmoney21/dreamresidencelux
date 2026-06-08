@@ -882,48 +882,41 @@ a    { text-decoration: none; color: inherit; }
 .rules-inner { max-width: var(--max); margin: 0 auto; }
 .rules-header { text-align: center; margin-bottom: 4.5rem; }
 
-.rules-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2px;
-  background: rgba(201,168,76,0.1);
-}
-.rule-card {
-  background: #161616;
-  padding: 2rem 1.8rem;
+.rules-poster {
   display: flex;
-  gap: 1rem;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
 }
-.rule-icon {
-  font-size: 1rem;
-  color: var(--gold);
-  flex-shrink: 0;
-  width: 22px;
-  margin-top: 3px;
-  text-align: center;
-}
-.rule-title {
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--gold);
-  margin-bottom: 0.4rem;
-  letter-spacing: 0.03em;
-}
-.rule-detail {
-  font-size: 0.78rem;
-  color: rgba(255,255,255,0.55);
-  line-height: 1.65;
-}
-.rule-detail small {
+.rules-poster-frame {
   display: block;
-  font-size: 0.7rem;
-  color: rgba(255,255,255,0.3);
-  margin-top: 0.2rem;
+  max-width: 760px;
+  width: 100%;
+  padding: 0.6rem;
+  background: #161616;
+  border: 1px solid rgba(201,168,76,0.35);
+  box-shadow: 0 2px 40px rgba(0,0,0,0.45);
+  transition: border-color 0.35s var(--ease), box-shadow 0.35s var(--ease), transform 0.35s var(--ease);
+}
+.rules-poster-frame:hover {
+  border-color: rgba(201,168,76,0.7);
+  box-shadow: 0 2px 50px rgba(0,0,0,0.6);
+  transform: translateY(-4px);
+}
+.rules-poster-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rules-poster-hint {
+  font-size: 0.74rem;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.4);
 }
 
-@media (max-width: 900px) { .rules-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 520px)  { .rules-grid { grid-template-columns: 1fr; } }
+@media (max-width: 520px) {
+  .rules-poster-frame { padding: 0.4rem; }
+}
 
 /* ============================================================
    BOOK / CTA
